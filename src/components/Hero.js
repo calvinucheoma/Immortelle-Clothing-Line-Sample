@@ -1,33 +1,32 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Link } from 'react-router-dom'
-import heroBcg from '../assets/hero-bcg.jpg'
-import heroBcg2 from '../assets/hero-bcg-2.jpg'
+import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import heroBcg from '../assets/hero-bcg.jpg';
+import heroBcg2 from '../assets/hero-bcg-2.jpg';
 const Hero = () => {
   return (
-    <Wrapper className='section-center'>
-      <article className='content'>
+    <Wrapper className="section-center">
+      <article className="content">
         <h1>
           We produce <br />
           quality wears
         </h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, at
-          sed omnis corporis doloremque possimus velit! Repudiandae nisi odit,
-          aperiam odio ducimus, obcaecati libero et quia tempora excepturi quis
-          alias?
+          Welcome to Imortelle online clothing store. I deal on men's wears. You
+          can browse and search for your favourite men's wear here and contact
+          me when you find the perfect fit for you.
         </p>
-        <Link to='/products' className='btn hero-btn'>
+        <Link to="/products" className="btn hero-btn">
           shop now
         </Link>
       </article>
-      <article className='img-container'>
-        <img src={heroBcg} alt='nice table' className='main-img' />
-        <img src={heroBcg2} alt='person working' className='accent-img' />
+      <article className="img-container">
+        <img src={heroBcg} alt="nice table" className="main-img" />
+        <img src={heroBcg2} alt="person working" className="accent-img" />
       </article>
     </Wrapper>
-  )
-}
+  );
+};
 
 const Wrapper = styled.section`
   min-height: 60vh;
@@ -89,6 +88,6 @@ const Wrapper = styled.section`
       border-radius: var(--radius);
     }
   }
-`
+`;
 
-export default Hero
+export default Hero;

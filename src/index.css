@@ -58,7 +58,8 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: 'Britney', cursive;
+  /* font-family: 'Britney', cursive; */
+  font-family: 'Montserrat', sans-serif;
   background: var(--clr-white);
   color: var(--clr-grey-1);
   line-height: 1.5;

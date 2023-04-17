@@ -1,35 +1,37 @@
-import React from 'react'
-import styled from 'styled-components'
-import { PageHero } from '../components'
-import aboutImg from '../assets/hero-bcg-3.jpg'
+import React from 'react';
+import styled from 'styled-components';
+import { PageHero } from '../components';
+import aboutImg from '../assets/hero-bcg-3.jpg';
 const AboutPage = () => {
   return (
     <main>
-      <PageHero title='about' />
-      <Wrapper className='page section section-center'>
-        <img src={aboutImg} alt='nice clothe' />
+      <PageHero title="about" />
+      <Wrapper className="page section section-center">
+        <img src={aboutImg} alt="nice clothe" />
         <article>
-          <div className='title'>
-            <h2>our story</h2>
-            <div className='underline'></div>
+          <div className="title">
+            <h2> What I Do</h2>
+            <div className="underline"></div>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
-            accusantium sapiente tempora sed dolore esse deserunt eaque
-            excepturi, delectus error accusamus vel eligendi, omnis beatae.
-            Quisquam, dicta. Eos quod quisquam esse recusandae vitae neque
-            dolore, obcaecati incidunt sequi blanditiis est exercitationem
-            molestiae delectus saepe odio eligendi modi porro eaque in libero
-            minus unde sapiente consectetur architecto. Ullam rerum, nemo iste
-            ex, eaque perspiciatis nisi, eum totam velit saepe sed quos
-            similique amet. Ex, voluptate accusamus nesciunt totam vitae esse
-            iste.
+            My name is Kingsley and I am the owner and founder of Imortelle
+            brand. I am very delighted to have you here and can't wait to show
+            you my impressive collection of stylish and sophisticated apparel.
+            My brand is all about providing men with the perfect combination of
+            comfort, quality, and style, whether you're dressing up for a formal
+            event or adding a touch of sophistication to your everyday wardrobe.
+            From classic suits to sleek blazers and versatile one-piece
+            ensembles, I've got everything you need to look and feel your best.
+            I believe that every man deserves to look and feel confident, and
+            that's why I offer a diverse range of sizes and styles to suit every
+            taste and budget. So, come and explore my website, find your perfect
+            fit, and get ready to make a lasting impression wherever you go.
           </p>
         </article>
       </Wrapper>
     </main>
-  )
-}
+  );
+};
 const Wrapper = styled.section`
   display: grid;
   gap: 4rem;
@@ -56,5 +58,5 @@ const Wrapper = styled.section`
   @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr;
   }
-`
-export default AboutPage
+`;
+export default AboutPage;
